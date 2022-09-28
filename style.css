@@ -1,0 +1,133 @@
+body {
+  background: #f6f5f5;
+  font-family: Oswald;
+}
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-size: 24px;
+  z-index: 99;
+}
+#nav-bar {
+  z-index: 9999;
+  position: fixed;
+  background-color: #F6F5F5;
+  width: 100%;
+  margin: 0;
+  border-bottom: 3px solid;
+}
+#nav-bar ul {
+  list-style-type: none;
+}
+#nav-bar li {
+  display: inline;
+  margin: 0px 5px;
+  padding: 0px 15px;
+}
+a {
+  color: rgb(1, 67, 102);
+  text-decoration: none;
+}
+
+#more-info {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 26px;
+}
+#more-info h2 {
+  color: #276678;
+  text-shadow: 3px 3px 10px;
+}
+#email {
+  width: 400px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#submit {
+  border-radius: 10px;
+  border: none;
+  background: #276678;
+  color: white;
+  font-size: 20px
+}
+.container {
+  font-size: 40px;
+  width: 100%;
+  background: transparent;
+  display: grid;
+  grid-template-columns: 50px 300px;
+  justify-content: center;
+  grid-column-gap: 80px;
+  background: transparent;
+  align-items: center;
+  margin-top: 100px  
+}
+a:hover {
+  color: rgb(124, 156, 173);
+}
+#header-img {
+  height: 40px;
+}
+.product-container {
+  line-height: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 15px;
+  justify-content: center;
+  justify-self: center;
+  font-size: 20px;
+  margin-top: 100px;
+}
+iframe {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.icon img{
+  width: 100px;
+}
+.product-container .weights {
+  text-align: center;
+  background: #C8CAD9;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 20px
+}
+.product-container .weight-price {
+  list-style-type: none;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px
+  
+}
+.product-container .weight-desc {
+  list-style-type: none;
+  text-align: center;
+}
+.product-container .weight-btn {
+    list-style-type: none;
+}
+button {
+  text-align: center;
+  margin: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #276678;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  
+}
+.desc {
+  font-size: 20px;
+  line-height: 20px
+}
+ @media (min-width: 500px){
+    .product-container{
+      grid-template-columns: 200px;
+      grid-template-rows: auto;
+      
+    
